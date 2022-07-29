@@ -11,6 +11,11 @@ import WhiskeyDrinkTray from './WhiskeyDrinkTray'
 import OtherDrinkTray from './OtherDrinkTray'
 import '@fontsource/roboto/300.css';
 import Typography from '@mui/material/Typography';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+import Box from '@mui/material/Box';
 
 
 function MainIngredients() {
@@ -81,7 +86,7 @@ function MainIngredients() {
     // event to handle when main ingredients are clicked and different
     //recipes need to be shown
 
-    const [show, setShow] = useState('v');
+    const [show, setShow] = useState('');
     const handleShowClick = (i) => {
         console.log(show)
         console.log(i)
@@ -90,6 +95,13 @@ function MainIngredients() {
         }else{
             setShow((prev) => i)
         }
+    }
+
+    const handleShowDropdown = (i) => {
+        console.log(show)
+        console.log(i)
+            setShow(i.target.value)
+        
     }
 
     //=================================
@@ -154,6 +166,33 @@ function MainIngredients() {
         </ToggleButton>
     ))
 
+    let mainIngredientDropDownTray = mainIngredientArray.map((item, i) => (
+        <MenuItem 
+            key={i}
+            value={item.text}
+        >
+            <Typography fontSize='1rem'>
+                    {item.text}
+            </Typography>
+            
+        </MenuItem >
+    ))
+
+    let mainIngredientDropDown = 
+    <Box sx={{ minWidth: 150 }}>
+      <FormControl fullWidth>
+        <InputLabel id="demo-simple-select-label">{show ? show : "Main Alcohol"}</InputLabel>
+        <Select
+                labelId="demo-simple-select-label"
+                id="demo-simple-select"
+                label="Main Alcohol"
+                onChange={handleShowDropdown}
+            >
+                {mainIngredientDropDownTray}
+        </Select>
+      </FormControl>
+    </Box>
+
     // if screen width is less than 450 pixels, swap to small text array
     // let mainIngredientButtonSelector = if ()
 
@@ -167,7 +206,7 @@ function MainIngredients() {
                         // bgcolor: '#5bccf6',
                         maxWidth: 'xs'
                     }}
-                    value={alignment}
+                    value={show}
                     exclusive
                     onChange={handleChange}
                 >
@@ -184,7 +223,7 @@ function MainIngredients() {
                         exclusive
                         onChange={handleChange}
                     >
-                        {mainIngredientButtonsSmall}
+                        {mainIngredientDropDown}
                     </ToggleButtonGroup>
                 )}
                 
