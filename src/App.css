@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  html {
+    overflow-y:scroll;
+  }
+
+  body {
+    background-color: #fcde67;
+  }
+
+  #root {
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .FullTable {
+    background-color: #fcde67;
+    padding: 1rem;
+  }
+
+  .DrinkTrays {
+    padding: 1rem;
+  }
+
+  ::-webkit-scrollbar{
+    -webkit-appearance: none;
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #888888;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #5bccf6;
+  }
