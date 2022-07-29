@@ -181,7 +181,7 @@ function MainIngredients() {
     let mainIngredientDropDown = 
     <Box sx={{ minWidth: 150 }}>
       <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">{show ? show : "Main Alcohol"}</InputLabel>
+        <InputLabel id="demo-simple-select-label">Main Alcohol</InputLabel>
         <Select
                 labelId="demo-simple-select-label"
                 id="demo-simple-select"
