@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cocktails.io2/static/css/main.5da9cc5d.css",
-    "main.js": "/cocktails.io2/static/js/main.187ee56e.js",
+    "main.js": "/cocktails.io2/static/js/main.1a513630.js",
     "static/media/roboto-all-300-normal.woff": "/cocktails.io2/static/media/roboto-all-300-normal.168d6383e73339293ac3.woff",
     "static/media/roboto-latin-300-normal.woff2": "/cocktails.io2/static/media/roboto-latin-300-normal.c48fb6765a9fcb00b330.woff2",
     "static/media/roboto-cyrillic-ext-300-normal.woff2": "/cocktails.io2/static/media/roboto-cyrillic-ext-300-normal.4777461b144e55145268.woff2",
@@ -12,10 +12,10 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/cocktails.io2/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "index.html": "/cocktails.io2/index.html",
     "main.5da9cc5d.css.map": "/cocktails.io2/static/css/main.5da9cc5d.css.map",
-    "main.187ee56e.js.map": "/cocktails.io2/static/js/main.187ee56e.js.map"
+    "main.1a513630.js.map": "/cocktails.io2/static/js/main.1a513630.js.map"
   },
   "entrypoints": [
     "static/css/main.5da9cc5d.css",
-    "static/js/main.187ee56e.js"
+    "static/js/main.1a513630.js"
   ]
 }
