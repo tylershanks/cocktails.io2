@@ -57,6 +57,7 @@ export const VodkaDrinksArray = [
         drinkName: 'White Russain',
         ingredients: [
             ['2oz of Vodka'],
+            ['1oz of Kahlúa'],
             ['1oz of Heavy Cream'],
             ['Garnish with coffee beans']
         ],
@@ -65,8 +66,8 @@ export const VodkaDrinksArray = [
             ['Add ingredients to the glass, stir.'],
             ['Garnish with 3 coffee beans.']
         ],
-        recipeLink: 'recipe link',
-        youtubeLink: 'youtube link'
+        recipeLink: 'https://www.liquor.com/recipes/white-russian/',
+        youtubeLink: 'https://www.youtube.com/watch?v=vQNrCXreNCw'
         
     },
     //================
@@ -184,8 +185,8 @@ export const GinDrinksArray = [
             ['Add ingredients to the glass, stir.'],
             ['Garnish with a Lime Wedge.']
         ],
-        recipeLink: 'recipe link',
-        youtubeLink: 'youtube link'
+        recipeLink: 'https://www.liquor.com/recipes/gin-and-tonic/',
+        youtubeLink: 'https://www.youtube.com/watch?v=jQfCerhECMQ'
     },
     //================
     {
@@ -333,8 +334,8 @@ export const RumDrinksArray = [
             ['Add ingredients to the glass, stir.'],
             ['Garnish with a Lime Wheel.']
         ],
-        recipeLink: 'recipe link',
-        youtubeLink: 'youtube link'
+        recipeLink: 'https://www.sugarandsoul.co/malibu-bay-breeze/',
+        youtubeLink: 'https://www.youtube.com/watch?v=ueN1eA4gUbw'
     },
     //================
     {
@@ -491,8 +492,8 @@ export const TequilaDrinksArray = [
             ['Float the Grenadine over the top of the drink.'],
             ['Garnish with a Orange Wheel.']
         ],
-        recipeLink: 'recipe link',
-        youtubeLink: 'youtube link'
+        recipeLink: 'https://www.liquor.com/recipes/tequila-sunrise/',
+        youtubeLink: 'https://www.youtube.com/watch?v=VNaSpZ3YOoM&t=322s'
     },
     //================
     {
@@ -511,7 +512,7 @@ export const TequilaDrinksArray = [
             ['Strain into a Margarita glass.'],
             ['Garnish with a Lime Wheel.']
         ],
-        recipeLink: 'https://www.liquor.com/recipes/margarita/ link',
+        recipeLink: 'https://www.liquor.com/recipes/margarita/',
         youtubeLink: 'https://www.youtube.com/watch?v=vLMiQozMcUo&t=300s'
     },
     //================
@@ -746,8 +747,8 @@ export const OtherDrinksArray = [
             ['Add ingredients to the glass, stir.'],
             ['Garnish with a 2 Maraschino Cherries.']
         ],
-        recipeLink: 'recipe link',
-        youtubeLink: 'youtube link'
+        recipeLink: 'https://www.liquor.com/recipes/shirley-temple/',
+        youtubeLink: 'https://www.youtube.com/watch?v=A4j7AjlkCB8'
     },
     //================
     {
@@ -779,7 +780,7 @@ export const OtherDrinksArray = [
             ['Top with club soda.'],
             ['Garnish with an Orange Slice.']
         ],
-        recipeLink: 'recipe link',
+        recipeLink: 'https://www.liquor.com/recipes/aperol-spritz/',
         youtubeLink: 'https://www.youtube.com/shorts/GEm88QIyRLg'
     },
     //================
