@@ -255,7 +255,7 @@ export const GinDrinksArray = [
         ],
         steps: [
             ['Add ingredients and ice to a shaker, shake.'],
-            ['Strain into Coupe Glass.'],
+            ['Strain into Coupe Glass.']
         ],
         recipeLink: 'https://www.liquor.com/recipes/the-last-word/',
         youtubeLink: 'https://www.youtube.com/watch?v=jRcApnG9Hck'
@@ -271,7 +271,7 @@ export const GinDrinksArray = [
         ],
         steps: [
             ['Add ingredients and ice to a shaker, shake.'],
-            ['Strain into Coupe Glass.'],
+            ['Strain into Coupe Glass.']
         ],
         recipeLink: 'https://www.liquor.com/word-up-cocktail-recipe-5190082',
         youtubeLink: 'https://www.youtube.com/shorts/vabnQck3WDY'
@@ -526,7 +526,7 @@ export const TequilaDrinksArray = [
             ['Garnish with a Lime Wheel']
         ],
         steps: [
-            ['Add ingredients and ice to shaker, shake.']
+            ['Add ingredients and ice to shaker, shake.'],
             ['Fill a Rocks glass with ice.'],
             ['Strain into the Rocks glass.'],
             ['Garnish with a Lime Wheel.']
@@ -564,7 +564,7 @@ export const TequilaDrinksArray = [
         ],
         steps: [
             ['Add ingredients and ice to a shaker, shake.'],
-            ['Strain into Coupe Glass.'],
+            ['Strain into Coupe Glass.']
         ],
         recipeLink: 'https://www.liquor.com/naked-famous-cocktail-recipe-5268208',
         youtubeLink: 'https://www.youtube.com/watch?v=cAZyQ9GA6Gk'
@@ -584,7 +584,7 @@ export const TequilaDrinksArray = [
             ['Gently coat the outer edge of the glass with salt.'],
             ['Add Tequila and Lime Juice and ice to a shaker, shake.'],
             ['Strain into the salted Highball Glass.'],
-            ['Top with Grapefruit Soda, stir briefly.']
+            ['Top with Grapefruit Soda, stir briefly.'],
             ['Garnish with a Lime Wheel.']
         ],
         recipeLink: 'https://www.liquor.com/recipes/paloma/',
@@ -720,7 +720,7 @@ export const WhiskeyDrinksArray = [
         ],
         steps: [
             ['Add ingredients and ice to a shaker, shake.'],
-            ['Strain into Coupe Glass.'],
+            ['Strain into Coupe Glass.']
         ],
         recipeLink: 'https://www.liquor.com/recipes/the-paper-plane/',
         youtubeLink: 'https://www.youtube.com/watch?v=yu4JNOvec1k'
@@ -791,7 +791,7 @@ export const OtherDrinksArray = [
             ['0.75oz of Orange Liqueur (i.e. Cointreau)'],
             ['0.75oz of Lemon Juice'],
             ['Garnish with am Orange Twist'],
-            ['Sugar for an optional Sugar Rim'],
+            ['Sugar for an optional Sugar Rim']
         ],
         steps: [
             ['Chill a Coupe glass and rub the outer rim with a cut lemon.'],
