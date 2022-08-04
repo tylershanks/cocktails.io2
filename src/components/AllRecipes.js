@@ -151,7 +151,7 @@ export const VodkaDrinksArray = [
         drinkName: 'Transfusion',
         ingredients: [
             ['2oz of Vodka'],
-            ['1oz of Grapefruit Juice'],
+            ['1oz of Grape Juice'],
             ['0.25oz of Lime Juice'],
             ['2oz of Ginger Beer'],
             ['Garnish with a Lime Wedge']
